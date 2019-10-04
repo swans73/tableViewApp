@@ -86,7 +86,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CTa-WK-0tv" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="tSi-UJ-jY8" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="882.60869565217399" y="21.428571428571427"/>
+            <point key="canvasLocation" x="877" y="82"/>
         </scene>
     </scenes>
 </document>

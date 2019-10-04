@@ -26,7 +26,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         //遷移先のResultViewControllerで宣言している値に値を代入して渡す
         let indexPath:NSIndexPath = self.tableView.indexPathForSelectedRow! as NSIndexPath
         resultViewController.x = indexPath.row + 1
-        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -43,6 +42,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             cell.textLabel!.textColor = UIColor.black
         }
           return cell
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     }
 
 
