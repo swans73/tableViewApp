@@ -30,7 +30,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="504-E4-g21" kind="show" id="eTa-xx-iKt"/>
+                                            <segue destination="504-E4-g21" kind="show" id="pNx-wp-b4l"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

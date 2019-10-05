@@ -43,7 +43,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
           return cell
     }
+    //選択状態を解除
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 
 

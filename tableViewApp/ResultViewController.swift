@@ -18,6 +18,11 @@ class ResultViewController: UIViewController {
         // Do any additional setup after loading the view.
         let path = x
         label.text = "\(path)行目"
+        if path % 3 == 0 {
+            label!.textColor = UIColor.red
+        } else {
+            label!.textColor = UIColor.black
+        }
     }
     
 
